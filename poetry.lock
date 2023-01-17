@@ -181,20 +181,6 @@ css = ["tinycss2 (>=1.1.0,<1.2)"]
 dev = ["Sphinx (==4.3.2)", "black (==22.3.0)", "build (==0.8.0)", "flake8 (==4.0.1)", "hashin (==0.17.0)", "mypy (==0.961)", "pip-tools (==6.6.2)", "pytest (==7.1.2)", "tox (==3.25.0)", "twine (==4.0.1)", "wheel (==0.37.1)"]
 
 [[package]]
-name = "bs4"
-version = "0.0.1"
-description = "Dummy package for Beautiful Soup"
-category = "dev"
-optional = false
-python-versions = "*"
-files = [
-    {file = "bs4-0.0.1.tar.gz", hash = "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"},
-]
-
-[package.dependencies]
-beautifulsoup4 = "*"
-
-[[package]]
 name = "cachecontrol"
 version = "0.12.11"
 description = "httplib2 caching for requests"
@@ -2140,4 +2126,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "75e71803a37677162b6a23e73800497e25fb4d6ce481f99dc7d588d976980e82"
+content-hash = "a0c7d78cec2c780fb3ecf7a3fa00f9ac8539aa5386adf2834fefe427b1a677f7"
