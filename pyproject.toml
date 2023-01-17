@@ -21,7 +21,7 @@ python-semantic-release = "^7.32.2"
 pytest-cov = "^4.0.0"
 pre-commit = "^2.20.0"
 markdown = "^3.4.1"
-bs4 = "^0.0.1"
+beautifulsoup4 = "^4.11.1"
 
 [build-system]
 requires = ["poetry-core"]
